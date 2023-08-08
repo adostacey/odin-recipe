@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Average+Sans&family=Rufina:wght@400;700&display=swap");
+
+:root {
+  /* https://www.fontpair.co/ */
+  --ff-serif: "Rufina", serif;
+  --ff-sans: "Average Sans", sans-serif;
+
+  /* palette from https://color.adobe.com/explore */
+  --clr-neutral-500: rgba(184, 178, 167, 1);
+  --clr-neutral-700: rgba(119, 116, 109, 1);
+  --clr-neutral-100: rgba(247, 240, 225, 1);
+  --clr-neutral-900: rgba(56, 55, 51, 1);
+  --clr-neutral-300: rgba(221, 214, 202, 1);
+}
+
+html {
+}
+
+body {
+  font-family: var(--ff-sans);
+  color: var(--clr-neutral-900);
+  background-color: var(--clr-neutral-100);
+}
+
+h1,
+h2 {
+  font-family: var(--ff-serif);
+}
+ul {
+  list-style-type: none;
+}
